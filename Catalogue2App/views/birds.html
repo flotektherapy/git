@@ -1,0 +1,96 @@
+<script>
+    	//Function to get the query string parameter from the current location
+        function getParameterByName(name) {
+        	name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+           	var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex.exec(window.location.hash);
+    		
+           	return results === null ? -1 : decodeURIComponent(results[1].replace(/\+/g, " "));
+       	}
+        
+        var familyId = getParameterByName("familyId");
+        
+        var loadingMessage = $("<span>Loading birds...</span>");
+        $("#birdsPageList").append(loadingMessage);
+        
+        //If the birds are not done loading
+        var birdsLoadedCheck = setInterval(function(){
+            if(birdsLoaded){
+            	initializeBirds();  
+            }
+        }, 500);
+        
+        function initializeBirds(){
+            window.clearInterval(birdsLoadedCheck);
+            loadingMessage.remove();
+            
+            var w = 150, h = 150, html = '', limitItem = 10
+            var filteredBirds = birds;
+            
+            if(familyId != -1){
+                filteredBirds = filteredBirds.filter(function (obj) {
+            		return (obj.ID_Issue == familyId);
+            	});
+            }
+            
+            if(filteredBirds.length == 0){
+                var noDataText = $("<span>No options to be found...</span>");
+                
+                $("#birdsFreewall").append(noDataText);
+            }
+        //   var currentItem;
+          filteredBirds.forEach(function(item){
+             //   var imagePath = item.images.length == 0 ? "" : item.images[0];
+                          var imagePath = 'images/item/' + item.imgFriendlyName + 'tmb.jpg';
+              // var currentItem = $("<div bird-id='" + item.ID_Bird + "' class='cell' style='width:" + w + "px; height: " + h  + "px; background-image: url(" + imagePath + ");'></div>");
+           var  currentItem = $("<div bird-id='" + item.ID_Bird + "' class='cell' style='width:" + w + "px; height: " + h  + "px; backgroundblack; padding-bottom: 0px; vertical-align:bottom ;'>" +  "</div>");
+          		
+               tnIMG = new Image();
+              tnIMG.src = imagePath;
+              tnIMG.width = 150;
+               tnIMG.height = 150;
+            tnIMG.className = 'imgThumbs';
+               
+             
+              $(currentItem).prepend(tnIMG);
+               
+              currentItem.on('click', function(){
+              	var currentItemId = $(this).attr("bird-id");
+                
+                   selectedBird = currentItemId;
+                	window.location.hash = "views/BirdInfo.html";
+            	});
+            
+            	$("#birdsFreewall").append(currentItem);
+            });
+            
+          
+            
+            var wall = new Freewall("#birdsFreewall");
+    		wall.reset({
+        		selector: '.cell',
+        		animate: true,
+        		cellW: 150,
+        		cellH: 150,
+        		onResize: function () {
+            		wall.refresh();
+        		}
+    		});
+    
+       		wall.fitWidth();
+    
+        	// For scroll bar appear;
+    		$(window).trigger("resize");
+        }
+    </script>
+
+<div data-role="view" data-title="Birds" data-layout="main" data-model="APP.models.birds" data-reload="true">
+
+   <div data-role="header" class="headbg">
+
+       
+
+    </div>
+    
+    <div id="birdsFreewall" class="free-wall"></div>
+
+</div>    

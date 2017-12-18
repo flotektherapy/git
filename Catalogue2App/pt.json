@@ -1,0 +1,20 @@
+ [{
+        "ID_Bird": "25140",
+        "Main_Heading": "ALIMINIUM",
+        "Tool_Description1": "2-flute flattened end mills with straight shank",
+        "Tooth_Type": "2-flute flattend end mills",
+        "Coating": "NaNo TiAIN",
+        "Description": "2-flute flattened end mills with straight shank",
+        "Cutting_Edge": "Cutting edge with protections",
+        "Machine_Operation": "Side face machining, Step shoulder machining, Straight slot machining",
+        "Helical_Angle": "30°",
+        "Coating1": "",
+        "Diameter_Tolerance": "D≤12 0-0.020 ; 12≤D 0-0.030",
+        "ID_Issue": "4",
+        "imgFriendlyName": "sc1",
+        "images": [
+            "images/bird/sc1.jpg",
+            "images/bird/sc2.jpg"
+        ]
+    }
+ ]

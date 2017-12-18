@@ -1,0 +1,78 @@
+<div data-role="view" data-title="Transfer" data-layout="main" data-reload="true">
+    
+    <div id="birdFamilyFreewall" class="free-wall"></div>
+    
+    <script>
+        var loadingText = $("<span id='loadingFamiliesText'>Loading Transfer Options...</span>");
+        $("#birdFamilyFreewall").append(loadingText);
+        
+        var familyId;
+        var families;
+        
+        //Function to get the query string parameter from the current location
+        function getParameterByName(name) {
+        	name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+           	var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex.exec(window.location.hash);
+    		
+           	return results === null ? -1 : decodeURIComponent(results[1].replace(/\+/g, " "));
+       	}
+       
+        //Get all the chaper issues
+        $.getJSON('finalchapterissues.json', function(response){
+            families = response;
+            familyId = getParameterByName('chaptId');
+        
+            //If we want to see a specific chapter of families, filter the result to only what we want
+        	if(familyId != -1){
+            	families = families.filter(function (obj) {
+            		return (obj.ID_Chapter == familyId);
+            	});
+        	}
+            
+            //Generate the responsive blocks for all the families
+            var w = 150, h = 150, html = '', limitItem = 123;
+            
+            families.forEach(function(familyItem){
+                console.log(familyItem);
+             var familyItemTemplate = $("<div class='cell' famId='" + familyItem.ID_Issue + "' style='width:" + w + "px; height: " + h + "px; background-image: url(images/i/issues/" + familyItem.ID_Issue + ".jpg)'>"  + "</div>");
+               //  var  familyItemTemplate = $("<div fam='" + item.ID_Bird + "' class='cell' style='width:" + w + "px; height: " + h  + "px; background:black; padding-bottom: 0px; vertical-align:bottom ;'>" + item.Main_Heading + "</div>");
+                familyItemTemplate.on('click', function(){
+                    window.location.hash = "views/birds.html?familyId=" + $(this).attr("famId");
+                });
+                
+                $("#birdFamilyFreewall").append(familyItemTemplate); 
+            });
+            
+            if(families.length == 0){
+                var errorText = $("<span>No bird families could be found.</span>");
+            
+            	$("#birdFamilyFreewall").append(errorText);
+            }
+            
+            var wall = new Freewall("#birdFamilyFreewall");
+    		wall.reset({
+        		selector: '.cell',
+        		animate: true,
+        		cellW: 150,
+        		cellH: 150,
+        		onResize: function () {
+            		wall.refresh();
+        		}
+    		});
+    
+       		wall.fitWidth();
+    
+        	// For scroll bar appear;
+    		$(window).trigger("resize");
+        })
+        .error(function(error){
+            var errorText = $("<span>No bird families could be found.</span>");
+            
+            $("#birdFamilyFreewall").append(errorText);
+        })
+        .complete(function(){
+            $("#loadingFamiliesText").remove();
+        });
+   </script>
+    
+</div>

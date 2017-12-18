@@ -1,0 +1,54 @@
+<script>
+    if(selectedBird == -1){
+        selectedBird = birds[0].ID_Bird;
+    }
+</script>
+
+<div data-role="view" data-title="BirdMaps" data-layout="main" data-model="APP.models.birds" data-reload="true">
+
+   <div data-role="header" class="headbg">
+
+        <div data-role="tabstrip">
+            <!--    <a href="views/birds.html" data-icon="featured">Birds</a> -->
+            <a href="views/BirdInfo.html" data-icon="info">Info</a>
+            <a href="views/BirdPics.html" data-icon="camera">Pics</a>
+            <a href="views/BirdMaps.html" data-icon="globe">Attr</a>
+        </div>
+
+    </div>
+    
+    <div width="100%" height="100%" id="selectedBirdMapContainer"></div>
+
+    <script>
+        
+     //     var Maptable = $("<table style='width:100%; height:100% margin: auto;'></table>");
+     //   var MapTr = $("<tr style='border-bottom:thin solid lightgrey;'></tr>");
+     //   var MapTd = $("<td colspan='2' class='paddingBottom mapCell'></td");
+     //   var noMapMessage = $("<span>Sorry..No Map available.</span>");
+     //   var birdMap = $("<img src='images/i/maps/" + selectedBird + ".jpg' width='100%' height='100%' />");
+     //   var birdMap = MapTr.append(MapTd.append(noMapMessage));
+        
+      //  birdMap.on("loadedmetadata", function(){
+      //  	noMapMessage.remove();
+       //     MapTd.append(birdMap);
+     //   });
+     //    Maptable.append(birdMap);
+        var imageControl = $("<img src='images/i/maps/" + selectedBird + ".jpg' width='100%' height='100%' />");
+        
+    	
+       $("#selectedBirdMapContainer").append(imageControl); 
+        
+       //   $("#selectedBirdMapContainer").append(Maptable);
+
+     //   setTimeout(function () {
+
+      //      var readyState = $("map")[0].readyState;
+
+      //      if (readyState == 0) {
+      //          $("map").remove();
+      //          $(".mapCell").append("<span>No Map Available..</span>")
+          //  }
+
+     //   }, 250);
+    </script>
+</div>    

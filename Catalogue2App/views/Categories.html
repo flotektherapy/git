@@ -1,0 +1,40 @@
+<div data-role="view" data-title="Categories" data-layout="main" data-model="APP.models.categtories">
+  
+    
+        
+    <div id="chaptsFreewall" class="free-wall"></div>
+    <script type="text/javascript">
+        var w = 150,
+            h = 150,
+            html = '',
+            limitItem = 3;
+
+        for (var i = 1; i < limitItem; ++i) {
+            var currentItem = $("<div chapt-id='" + i + "' class='cell' style='width:" + w + "px; height: " + h + "px; background-image: url(images/i/group/" + i + ".jpg)'></div>");
+
+            currentItem.on('click', function () {
+                var currentItemId = $(this).attr("chapt-id");
+
+                window.location.hash = "views/subcat.html?chaptId=" + currentItemId;
+            });
+
+            $("#chaptsFreewall").append(currentItem);
+        }
+        
+        var wall = new Freewall("#chaptsFreewall");
+        wall.reset({
+            selector: '.cell',
+            animate: true,
+            cellW: 150,
+            cellH: 150,
+            onResize: function () {
+                wall.refresh();
+            }
+        });
+
+        wall.fitWidth();
+
+        // For scroll bar appear;
+        $(window).trigger("resize");
+    </script>
+</div>

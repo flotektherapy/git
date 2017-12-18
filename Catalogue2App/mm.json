@@ -1,0 +1,98 @@
+ [{
+        "ID_Bird": "25140",
+        "Main_Heading": "VMC-936",
+        "Tool_Description1": "WITH TOOL CHARGER",
+      //  "Tooth_Type": "2-flute flattend end mills",
+      //  "Coating": "NaNo TiAIN",
+        "Description": "<p>STANDARD FEATURES</p><p> The main structure has high rigidity. Y, Z axis adopt rectangular guide way, X axis adopt swallow tail guide way. <br> The table surface and the guide ways are hardened.<br>Automatic lubrication mechanism.<br> X, Y, Z axis adopt ball screw, low speed feed without crawl and high precision. <br>Magazine: Armless type, BT40/ 16pcs</p>",
+       // "Cutting_Edge": "Cutting edge with protections",
+       // "Machine_Operation": "Side face machining, Step shoulder machining, Straight slot machining",
+       // "Helical_Angle": "30°",
+        //"Coating1": "",
+        //"Diameter_Tolerance": "D≤12 0-0.020 ; 12≤D 0-0.030",
+        "ID_Issue": "4",
+        "imgFriendlyName": "sc1",
+        "images": [
+            "images/bird/sc1.jpg",
+            "images/bird/sc2.jpg"
+        ]
+    },
+    {
+        "ID_Bird": "25140",
+        "Main_Heading": "VMC-936",
+        "Tool_Description1": "WITH TOOL CHARGER",
+      //  "Tooth_Type": "2-flute flattend end mills",
+      //  "Coating": "NaNo TiAIN",
+        "Description": "<p>STANDARD FEATURES</p><p> The main structure has high rigidity. Y, Z axis adopt rectangular guide way, X axis adopt swallow tail guide way. <br> The table surface and the guide ways are hardened.<br>Automatic lubrication mechanism.<br> X, Y, Z axis adopt ball screw, low speed feed without crawl and high precision. <br>Magazine: Armless type, BT40/ 16pcs</p>",
+       // "Cutting_Edge": "Cutting edge with protections",
+       // "Machine_Operation": "Side face machining, Step shoulder machining, Straight slot machining",
+       // "Helical_Angle": "30°",
+        //"Coating1": "",
+        //"Diameter_Tolerance": "D≤12 0-0.020 ; 12≤D 0-0.030",
+        "ID_Issue": "4",
+        "imgFriendlyName": "sc1",
+        "images": [
+            "images/bird/sc1.jpg",
+            "images/bird/sc2.jpg"
+        ]
+    },
+    {
+        "ID_Bird": "25140",
+        "Main_Heading": "VMC-850",
+        "Tool_Description1": "WITH TOOL CHARGER",
+      //  "Tooth_Type": "2-flute flattend end mills",
+      //  "Coating": "NaNo TiAIN",
+        "Description": "<p>STANDARD FEATURES</p><p> The main structure has high rigidity. Y, Z axis adopt rectangular guide way, X axis adopt swallow tail guide way. <br> The table surface and the guide ways are hardened.<br>Automatic lubrication mechanism.<br> X, Y, Z axis adopt ball screw, low speed feed without crawl and high precision. <br>Magazine: Armless type, BT40/ 16pcs</p>",
+       // "Cutting_Edge": "Cutting edge with protections",
+       // "Machine_Operation": "Side face machining, Step shoulder machining, Straight slot machining",
+       // "Helical_Angle": "30°",
+        //"Coating1": "",
+        //"Diameter_Tolerance": "D≤12 0-0.020 ; 12≤D 0-0.030",
+        "ID_Issue": "4",
+        "imgFriendlyName": "sc1",
+        "images": [
+            "images/bird/sc1.jpg",
+            "images/bird/sc2.jpg"
+        ]
+    },
+    {
+        "ID_Bird": "25140",
+        "Main_Heading": "VMC 1580",
+        "Tool_Description1": " WITH HALF GUARDING",
+      //  "Tooth_Type": "2-flute flattend end mills",
+      //  "Coating": "NaNo TiAIN",
+        "Description": "<p>STANDARD FEATURES </p>The Magnum VMC-1580 is a floor type, 3 axis, Spindle nose NT40. vertical machining centre<br>Transformer with superior design Working light. characteristics.\nEnsuring high levels of speed, accuracy, safety and overall efficiency.\nAutomatic lubrication equipment.\nChip tray.",
+       // "Cutting_Edge": "Cutting edge with protections",
+       // "Machine_Operation": "Side face machining, Step shoulder machining, Straight slot machining",
+       // "Helical_Angle": "30°",
+        //"Coating1": "",
+        //"Diameter_Tolerance": "D≤12 0-0.020 ; 12≤D 0-0.030",
+        "ID_Issue": "4",
+        "imgFriendlyName": "sc1",
+        "images": [
+            "images/bird/sc1.jpg",
+            "images/bird/sc2.jpg"
+        ]
+    }
+
+
+      {
+        "ID_Bird": "25020",
+        "Main_Heading": "ENGINEERING",
+        "Scientific_Name": "",
+        "Afrikaans_Name": "",
+        "Status": "",
+        "Habitat": "",
+        "Food": "",
+        "Voice": "’",
+        "Breeding": "",
+        "Body_Content": "",
+        "AuthorName": "",
+        "ID_Issue": "71",
+        "imgFriendlyName": "african_black_oystercatcher",
+        "images": [
+            "images/bird/african_black_oystercatcher0.jpg"
+        ]
+    },
+ ]
+

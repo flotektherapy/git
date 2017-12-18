@@ -1,0 +1,85 @@
+<script>
+    if (selectedBird == -1) {
+        selectedBird = birds[0].ID_Bird;
+    }
+</script>
+<div data-role="view" data-title="BirdInfo" data-layout="main" data-model="APP.models.birds" data-reload="true">
+    <div data-role="header" class="headbg">
+        <div data-role="tabstrip">
+      <!--      <a href="views/birds.html" data-icon="featured">Birds</a> -->
+            <a href="views/BirdInfo.html" data-icon="info">Info</a>
+            <a href="views/BirdPics.html" data-icon="camera">Pics</a>
+            <a href="views/BirdMaps.html" data-icon="globe">Atrr</a>
+        </div>
+    </div>
+    <div id="birdInfoContainer"></div>
+    <style>
+        .paddingBottom {
+            padding: 5px 0;
+        }
+    </style>
+    <script>
+        //Get the selected bird (sbm = selectedBirdModel)
+        var sbm = birds.filter(function (obj) {
+            return (obj.ID_Bird == selectedBird);
+        })[0];
+
+        var table = $("<table style='width:95%; margin: auto;'></table>");
+
+        var header = $("<tr><td colspan='2'><h3 style='margin-left:0;'>" + sbm.Main_Heading + "</h3></td><td>");
+        table.append(header);
+
+        //var toolDescription = $("<tr style='border-bottom:thin solid lightgrey;'><td class='paddingBottom'>Description</td><td class='paddingBottom'>" + sbm.Tool_Description + "</td></tr>");
+        //table.append(toolDescription);
+
+        var toothType = $("<tr><td>Tooth Type:</td><td>" + sbm.Tooth_Type + "</td></tr>");
+        table.append(toothType);
+
+        //var cuttingEdge = $("<tr style='border-bottom:thin solid lightgrey;'><td class='paddingBottom'>Cutting Edge: </td><td class='paddingBottom'>" + sbm.Cutting_Edge + "</td></tr>");
+        //table.append(cuttingEdge);
+
+        var birdTr = $("<tr style='border-bottom:thin solid lightgrey;'></tr>");
+       var birdTd = $("<td colspan='2' class='paddingBottom audioCell'></td");
+        var noSoundMessage = $("");
+        var birdAudio = $("<audio src='sounds/" + sbm.ID_Bird + ".mp3' type='audio/mp3' controls </audio>");
+        var birdSound = birdTr.append(birdTd.append(noSoundMessage));
+        
+        birdAudio.on("loadedmetadata", function(){
+        	noSoundMessage.remove();
+            birdTd.append(birdAudio);
+        });
+        
+        table.append(birdSound);
+
+        //var coating = $("<tr style='border-bottom:thin solid lightgrey;'><td colspan='2' class='paddingBottom'>" + sbm.Coating + "</td></tr>");
+        //table.append(coating);
+
+        
+
+        var cuttingEdge = $("<tr style='border-bottom:thin solid lightgrey;'><td class='paddingBottom'>Cutting Edge: </td><td class='paddingBottom'>" + sbm.Cutting_Edge + "</td></tr>");
+        table.append(cuttingEdge);
+
+        var toolDescription = $("<tr style='border-bottom:thin solid lightgrey;'><td class='paddingBottom'>Description: </td><td class='paddingBottom'>" + sbm.Description + "</td></tr>");
+        table.append(toolDescription);
+
+        var machineOperation = $("<tr style='border-bottom:thin solid lightgrey;'><td class='paddingBottom'>Machine Operation: </td><td class='paddingBottom'>" + sbm.Machine_Operation + "</td></tr>");
+        table.append(machineOperation);
+
+        var helicalAngle = $("<tr><td class='paddingBottom'> Helical Angle:</td><td class='paddingBottom'>" + sbm.Helical_Angle + "</td></tr>");
+        table.append(helicalAngle);
+var coating = $("<tr style='border-bottom:thin solid lightgrey;'><td class='paddingBottom'>Coating: </td><td class='paddingBottom'>" + sbm.Coating + "</td></tr>");
+        table.append(coating);
+        $("#birdInfoContainer").append(table);
+
+        setTimeout(function () {
+
+            var readyState = $("audio")[0].readyState;
+
+            if (readyState == 0) {
+                $("audio").remove();
+                $(".audioCell").append("<span>No sound currently available.</span>")
+            }
+
+        }, 250);
+    </script>
+</div>

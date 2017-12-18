@@ -1,0 +1,48 @@
+<div data-role="view" data-title="Login" data-layout="" data-model="app.loginService.viewModel" data-init="init">
+
+     <!--Login View-->
+    <div id="tabstrip-login"
+     
+     
+
+        <div class="logo-image"></div>
+        <div>
+            <h3 data-bind="visible: isLoggedIn">Welcome, <span data-bind="    text: firstname"></span>!</h3>
+            <input id="logout" type="submit" data-role="button" data-bind="click: onLogout, visible: isLoggedIn" value="Logout" class="login-button" />
+        </div>
+        <form data-bind="events: { keyup: checkEnter }">
+            <h3 data-bind="invisible: isLoggedIn">Enter your credentials:</h3>
+            <ul data-role="listview" data-style="inset" data-bind="invisible: isLoggedIn">
+               
+                      <li>
+                    <label>
+                        <div>First Name</div>
+                        <input type="text" data-bind="value: firstname" />
+                    </label>
+                </li>
+                     <li>
+                    <label>
+                        <div>Last Name</div>
+                        <input type="text" data-bind="value: lastname" />
+                    </label>
+                </li>
+                
+                <li>
+                    <label>
+                        <div>Email:</div>
+                        <input type="email" data-bind="value: email" />
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <div>Voucher Code:</div>
+                        <input type="token" data-bind="value: token" />
+                    </label>
+                </li>
+           
+            </ul>
+            <input id="login" type="submit" data-role="button" data-bind="click: onLogin, invisible: isLoggedIn" value="Login" class="login-button" />
+        </form>
+    </div>
+   
+</div> 

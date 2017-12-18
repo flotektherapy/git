@@ -1,0 +1,71 @@
+<style>
+	.flex-direction-nav{
+        display: none;
+    }
+</style>
+
+<div data-role="view" data-title="BirdPics" data-layout="main" data-model="APP.models.birds" data-reload="true">
+    <div data-role="header" class="headbg">
+        <div data-role="tabstrip">
+        <!--    <a href="views/birds.html" data-icon="featured">Birds</a> -->
+      <a href="views/iteminfo.html" data-icon="info">Info</a>
+            <a href="views/itempics.html" data-icon="camera">Pics</a>
+            <a href="views/itemattr.html" data-icon="bookmarks">Atrr</a>
+            <a href="views/itemseries.html.html" data-icon="details">Series</a>
+        </div>
+    </div>
+    <div id="sliderContainer" style="width: 90vw; margin:auto;">
+        <div class="flexslider">
+            <ul class="slides">
+            </ul>
+        </div>
+      
+    </div>
+    <script>
+        kendo.mobile.application.showLoading();
+        
+        if (selectedBird === -1) {
+            selectedBird = birds[0].ID_Bird;
+        }
+
+        var sbm = birds.filter(function (obj) {
+            return (obj.ID_Bird === selectedBird);
+        })[0];
+        
+        var doneTrying = 0;
+        var totalThings = 1;
+        
+        var checkSliderStatus = function(){
+            if(doneTrying == totalThings){
+                $('.flexslider').flexslider({
+            		animation: "slide"
+        		});
+                kendo.mobile.application.hideLoading();
+            }
+        }
+        
+        for (tnP = 0; tnP < totalThings; tnP++) {
+            var imagePath = 'images/bird/' + sbm.imgFriendlyName +  '.jpg';
+            var currentImage = $("<img src='" + imagePath + "' />");
+            
+            currentImage.load(function(){
+                	var li = $("<li />");
+                	li.append(this);
+                	$(".slides").append(li);
+                    doneTrying++;
+                	checkSliderStatus();
+            	})
+            	.error(function(){
+                	doneTrying++;
+                	checkSliderStatus();
+            	});
+        }
+        
+        $("header-button").click(function(event){
+    $(".tabstrip:visible").hide();
+    $(".tabstrip:hidden").show();
+    event.preventDefault();
+});
+    </script>
+
+</div>

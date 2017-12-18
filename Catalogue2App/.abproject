@@ -1,0 +1,45 @@
+{
+  "ProjectName": "Catalogue2App",
+  "ProjectGuid": "744da181-b64e-418b-bd3e-8ee1d1750f1b",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.Catalogue2App",
+  "DisplayName": "Catalogue2App",
+  "Author": "",
+  "Description": "Catalogue2App",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "6.4.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{1e9047bf-4d30-4338-81f2-1f101886a972}",
+  "WP8ProductID": "{8a61bcb0-2f75-4e4f-865b-92f620efd9ae}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.Catalogue2App",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}

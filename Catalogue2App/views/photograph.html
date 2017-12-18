@@ -1,0 +1,171 @@
+<div data-role="view" data-title="Photo" data-layout="main" data-model="APP.models.birds">
+    <div data-role="header" class="headbg">
+     <div data-role="navbar">
+                            <ul data-role="buttongroup" data-index="2">
+                         <li ><a href="views/about.html">Authors</a>   </li>
+                                <li ><a href="views/publisher.html"> </a>   </li>
+                             	  <li ><a href="views/"></a>
+                                 <li ><a href="views/"></a>   </li>
+                            </ul>
+                        </div>
+    </div>
+    <div id="photographers"></div>
+    <style>
+        .paddingBottom {
+            padding: 5px 0;
+        }
+    </style>
+  
+     <p><b>The Editors would like to thank all the photographers for their contribution to create this stunning production</b> </p>
+            <ul>
+			<li>Adam Riley</li>
+            <li>Alain Broyer</li>
+            <li>Alan Kemp</li>
+            <li>Alan Manson</li>
+            <li>Alan Weaving</li>
+            <li>Albert Froneman</li>
+            <li>Albie Venter</li>
+            <li>Andrew Jenkins</li>
+            <li>Artur Bujanowicz</li>
+            <li>Aurelien Audevard</li>
+            <li>Ayuwat Jearwattanakanok</li>
+            <li>Barry du Plessis</li>
+            <li>Basie van Zyl</li>
+            <li>Brendan Ryan</li>
+            <li>Brian Colahan</li>
+            <li>Bruce Ward-Smith</li>
+            <li>Burger Cillie</li>
+            <li>Byron Hart</li>
+            <li>Carin Malan</li>
+            <li>Carlo Balbi</li>
+            <li>Celesta von Chamier</li>
+            <li>Christina Port</li>
+            <li>Christo Schutte</li>
+            <li>Claire N. Spottiswoode</li>
+            <li>Dan Logen</li>
+            <li>Daniel Dolpire</li>
+            <li>Darrell Plowes</li>
+            <li>Dave Bakewell</li>
+            <li>David Winter</li>
+            <li>Dean Chalmers</li>
+            <li>Deirdre Outram</li>
+            <li>Dick Bos</li>
+            <li>Dominic Henry</li>
+            <li>Ehren Eksteen</li>
+            <li>Francois du Plessis</li>
+            <li>Frederic Leviez</li>
+            <li>Garth Batchelor</li>
+            <li>Gary Cusins</li>
+            <li>Geoff McIlleron</li>
+            <li>Glen Millard</li>
+            <li>Gordon McKechnie</li>
+            <li>Graham McGill</li>
+            <li>Guy Upfold</li>
+            <li>Hanne & Jens Eriksen</li>
+            <li>Hendi Eksteen</li>
+            <li>Hennie Cilliers</li>
+            <li>Hugh Chittenden</li>
+            <li>Ian Merrill</li>
+            <li>Isak Pretorius</li>
+            <li>Japie Claasen</li>
+            <li>Jason Chuang</li>
+            <li>Jaycee Rousseau</li>
+            <li>Jessie Walton</li>
+            <li>Joao Quaresma</li>
+            <li>Johan Engelbrecht</li>
+            <li>Johann Grobbelaar</li>
+            <li>John Carlyon</li>
+            <li>John Perry</li>
+            <li>John Wesson</li>
+            <li>Joshua Munroe</li>
+            <li>Ken Logan</li>
+            <li>Ken Oake</li>
+            <li>Kobus Pienaar</li>
+            <li>Kris Blachowiak</li>
+            <li>Laura Meyers</li>
+            <li>Len Blumin</li>
+            <li>Lizet Grobbelaar</li>
+            <li>LNJ du Plessis</li>
+            <li>Lynne Manson</li>
+            <li>Maans Booysen</li>
+            <li>Marianne Golding</li>
+            <li>Marietjie Froneman</li>
+            <li>Mark Muller</li>
+            <li>Mark Paxton</li>
+            <li>Martin Benadie</li>
+            <li>Matthijs Ravensberg</li>
+            <li>Mike Barth</li>
+            <li>Mike Bridgeford</li>
+            <li>Mike Buckham</li>
+            <li>Mike Graham</li>
+            <li>Mike Pope</li>
+            <li>Mike Soroczynski</li>
+            <li>Niall Perrins</li>
+            <li>Nicholas Hart</li>
+            <li>Nick Athanas</li>
+            <li>Nico Myburgh</li>
+            <li>Niel Cillie</li>
+            <li>Nigel Voaden</li>
+            <li>Nik Borrow</li>
+            <li>Oscar Campbell</li>
+            <li>Owen Hall</li>
+            <li>Paul Steyn</li>
+            <li>Pete Hancock</li>
+            <li>Pete Morgan</li>
+            <li>Pete Morris</li>
+            <li>Peter Acheson</li>
+            <li>Peter Chadwick</li>
+            <li>Peter Ginn</li>
+            <li>Peter Ryan</li>
+            <li>Peter Steyn</li>
+            <li>R. Bonser</li>
+            <li>Richard Booth</li>
+            <li>Richard Grant</li>
+            <li>Richard Peek</li>
+            <li>Robert Wienand</li>
+            <li>Sandeep Mall</li>
+            <li>Sibyl Morris</li>
+            <li>Simon Price</li>
+            <li>Stefan Pfutzke</li>
+            <li>Tadeusz Rosiński</li>
+            <li>Tim Pleating</li>
+            <li>Tim Stenton</li>
+            <li>Veronique Wolfaardt</li>
+            <li>Warwick Tarboton</li>
+            <li>Adrian & Jane Binns /Vireo</li>
+            <li>Alan Tate /Vireo</li>
+            <li>Arthur Morris /Vireo</li>
+            <li>Bob de Lange /Vireo</li>
+            <li>Bob Steele /Vireo</li>
+            <li>Bruce J. Robins /Vireo</li>
+            <li>Claude Nadeau /Vireo</li>
+            <li>David Tipling/Vireo</li>
+            <li>Dr. Warwick Tarboton /Vireo</li>
+            <li>George L. Armistead /Vireo</li>
+            <li>Gerard Bailey /Vireo</li>
+            <li>Glenn Bartley /Vireo</li>
+            <li>Greg Lasley /Vireo</li>
+            <li>Hanne & Jens Eriksen /Vireo</li>
+            <li>Jari Peltomaki /Vireo</li>
+            <li>Joe Fuhrman /Vireo</li>
+            <li>Johann Schumacher /Vireo</li>
+            <li>John Grahame Holmes /Vireo</li>
+            <li>Kevin Schafer /Vireo</li>
+            <li>Martin Hale /Vireo</li>
+            <li>Peter Craig-Cooper /Vireo</li>
+            <li>Peter Davey /Vireo</li>
+            <li>Peter Harrison /Vireo</li>
+            <li>Peter Latourrette /Vireo</li>
+            <li>Richard Crossley /Vireo</li>
+            <li>Rick and Nora Bowers /Vireo</li>
+            <li>Rolf Nussbaumer /Vireo</li>
+            <li>Steve Young /Vireo</li>
+            <li>Stuart Elson /Vireo</li>
+            <li>Tom Friedel /Vireo</li>
+            <li>Tony Palliser /Vireo</li>
+            <li>Dr. Warwick Tarboton /Vireo</li>
+
+    </ul>
+    
+    
+</div>

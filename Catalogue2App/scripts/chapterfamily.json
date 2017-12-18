@@ -1,0 +1,746 @@
+[
+    {
+        "ID_Issue": "1",
+        "Issues": "Albatrosses",
+        "ID_Chapter": "3",
+        "Chapter": "Tube Nosed Seabirds"
+    },
+    {
+        "ID_Issue": "2",
+        "Issues": "Avocet & Stilt",
+        "ID_Chapter": "12",
+        "Chapter": "Waders & Gulls"
+    },
+    {
+        "ID_Issue": "3",
+        "Issues": "Babblers",
+        "ID_Chapter": "26",
+        "Chapter": "Perching Birds"
+    },
+    {
+        "ID_Issue": "4",
+        "Issues": "Barbets",
+        "ID_Chapter": "25",
+        "Chapter": "Barbets & Allies"
+    },
+    {
+        "ID_Issue": "5",
+        "Issues": "Bateleur",
+        "ID_Chapter": "9",
+        "Chapter": "Birds Of Prey"
+    },
+    {
+        "ID_Issue": "6",
+        "Issues": "Batis",
+        "ID_Chapter": "26",
+        "Chapter": "Perching Birds"
+    },
+    {
+        "ID_Issue": "7",
+        "Issues": "Bee-Eaters",
+        "ID_Chapter": "23",
+        "Chapter": "Kingfishers & Allies"
+    },
+    {
+        "ID_Issue": "8",
+        "Issues": "Bishop & Widowbird",
+        "ID_Chapter": "26",
+        "Chapter": "Perching Birds"
+    },
+    {
+        "ID_Issue": "9",
+        "Issues": "Blackcap",
+        "ID_Chapter": "26",
+        "Chapter": "Perching Birds"
+    },
+    {
+        "ID_Issue": "10",
+        "Issues": "Boobies & Gannets",
+        "ID_Chapter": "4",
+        "Chapter":"Pelicans & Allies"
+    },
+    {
+        "ID_Issue": "11",
+        "Issues": "Broadbill",
+        "ID_Chapter": "26",
+        "Chapter": "Perching Birds"
+    },
+    {
+        "ID_Issue": "12",
+        "Issues": "Bulbuls",
+        "ID_Chapter": "26",
+        "Chapter": "Perching Birds"
+    },
+    {
+        "ID_Issue": "13",
+        "Issues": "Bush-Shrikes",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "14",
+        "Issues": "Bustards",
+        "ID_Chapter": "11",
+        "Chapter":"Buttonquails & Allies"
+    },
+    {
+        "ID_Issue": "15",
+        "Issues": "Buttonquails",
+        "ID_Chapter": "11",
+        "Chapter":"Buttonquails & Allies"
+    },
+    {
+        "ID_Issue": "16",
+        "Issues": "Buzzard",
+        "ID_Chapter": "9",
+        "Chapter":"Birds Of Prey"
+    },
+    {
+        "ID_Issue": "17",
+        "Issues": "Canaries & Buntings"
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "18",
+        "Issues": "Chats & Wheatears",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "19",
+        "Issues": "Cisticolas",
+        "ID_Chapter": "26",
+         "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "20",
+        "Issues": "Coot",
+        "ID_Chapter": "11",
+        "Chapter":"Buttonquails & Allies"
+    },
+    {
+        "ID_Issue": "21",
+        "Issues": "Cormorants",
+         "ID_Chapter": "4",
+        "Chapter":"Pelicans & Allies"
+    },
+    {
+        "ID_Issue": "22",
+        "Issues": "Coucal",
+        "ID_Chapter": "17",
+        "Chapter":"Cuckoos"
+    },
+    {
+        "ID_Issue": "23",
+        "Issues": "Coursers & Pratincoles",
+         "ID_Chapter": "12",
+        "Chapter":"Waders And Gulls"
+    },
+    {
+        "ID_Issue": "24",
+        "Issues": "Crab Plover",
+        "ID_Chapter": "12",
+        "Chapter":"Waders And Gulls"
+    },
+    {
+        "ID_Issue": "25",
+        "Issues": "Crake",
+        "ID_Chapter": "11",
+        "Chapter":"Buttonquails & Allies"
+    },
+    {
+        "ID_Issue": "26",
+        "Issues": "Cranes",
+         "ID_Chapter": "11",
+        "Chapter":"Buttonquails & Allies"
+    },
+    {
+        "ID_Issue": "27",
+        "Issues": "Crows & Ravens",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "28",
+        "Issues": "Cuckoo Finches",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "29",
+        "Issues": "Cuckoos",
+        "ID_Chapter": "17",
+        "Chapter":"Cuckoos"
+    },
+    {
+        "ID_Issue": "30",
+        "Issues": "Cuckooshrikes",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "31",
+        "Issues": "Darter",
+         "ID_Chapter": "4",
+        "Chapter":"Pelicans & Allies"
+    },
+    {
+        "ID_Issue": "32",
+        "Issues": "Drongos",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "33",
+        "Issues": "Ducks & Geese",
+         "ID_Chapter": "8",
+        "Chapter":"Duck-Like Birds"
+    },
+    {
+        "ID_Issue": "34",
+        "Issues": "Eagles",
+         "ID_Chapter": "9",
+        "Chapter": "Birds Of Prey"
+    },
+    {
+        "ID_Issue": "35",
+        "Issues": "Falcons & Kestrels",
+        "ID_Chapter": "9",
+        "Chapter": "Birds Of Prey"
+    },
+    {
+        "ID_Issue": "36",
+        "Issues": "Finch",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "37",
+        "Issues": "Finfoot",
+         "ID_Chapter": "11",
+        "Chapter":"Buttonquails & Allies"
+    },
+    {
+        "ID_Issue": "38",
+        "Issues": "Firefinch & Indigobird",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "39",
+        "Issues": "Fish Eagle & Osprey",
+          "ID_Chapter": "9",
+        "Chapter": "Birds Of Prey"
+    },
+    {
+        "ID_Issue": "40",
+        "Issues": "Flamingoes",
+        "ID_Chapter": "5",
+        "Chapter": "Flamingoes"
+    },
+    {
+        "ID_Issue": "41",
+        "Issues": "Flufftail",
+        "ID_Chapter": "11",
+        "Chapter":"Buttonquails & Allies"
+    },
+    {
+        "ID_Issue": "42",
+        "Issues": "Flycatchers & Batis",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "43",
+        "Issues": "Francolins, Spurfowl & Quails"
+         "ID_Chapter": "10",
+        "Chapter":"Francolins & Allies"
+    },
+    {
+        "ID_Issue": "44",
+        "Issues": "Frigatebirds",
+        "ID_Chapter": "4",
+        "Chapter":"Pelicans & Allies"
+    },
+    {
+        "ID_Issue": "45",
+        "Issues": "Goshawks & Sparrowhawks",
+        "ID_Chapter": "9",
+        "Chapter": "Birds Of Prey"
+    },
+    {
+        "ID_Issue": "46",
+        "Issues": "Grebes",
+        "ID_Chapter": "7",
+        "Chapter": "Grebes"
+    },
+    {
+        "ID_Issue": "47",
+        "Issues": "Ground Hornbills",
+         "ID_Chapter": "24",
+        "Chapter": "Rollers & Allies"
+    },
+    {
+        "ID_Issue": "48",
+        "Issues": "Guineafowl",
+        "ID_Chapter": "10",
+        "Chapter":"Francolins & Allies"
+    },
+    {
+        "ID_Issue": "49",
+        "Issues": "Gull",
+         "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "50",
+        "Issues": "Hamerkop",
+        "ID_Chapter": "6",
+        "Chapter":"Herons & Allies"
+    },
+    {
+        "ID_Issue": "51",
+        "Issues": "Harrier",
+        "ID_Chapter": "9",
+        "Chapter": "Birds Of Prey"
+    },
+    {
+        "ID_Issue": "52",
+        "Issues": "Hawks & Kites",
+        "ID_Chapter": "9",
+        "Chapter": "Birds Of Prey"
+    },
+    {
+        "ID_Issue": "53",
+        "Issues": "Helmet-Shrikes",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "54",
+        "Issues": "Herons, Egrets, Bitterns",
+         "ID_Chapter": "6",
+        "Chapter":"Herons & Allies"
+    },
+    {
+        "ID_Issue": "55",
+        "Issues": "Honeyguides",
+         "ID_Chapter": "25",
+        "Chapter":"Barbets & Allies"
+    },
+    {
+        "ID_Issue": "56",
+        "Issues": "Hoopoe",
+        "ID_Chapter": "24",
+        "Chapter":"Rollers & Allies"
+    },
+    {
+        "ID_Issue": "57",
+        "Issues": "Hornbills",
+        "ID_Chapter": "24",
+        "Chapter":"Rollers & Allies"
+    },
+    {
+        "ID_Issue": "58",
+        "Issues": "Ibises & Spoonbills",
+         "ID_Chapter": "6",
+        "Chapter":"Herons & Allies"
+    },
+    {
+        "ID_Issue": "59",
+        "Issues": "Jacanas",
+         "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "60",
+        "Issues": "Kingfishers",
+         "ID_Chapter": "23",
+        "Chapter":"Kingfishers & Allies"
+    },
+    {
+        "ID_Issue": "61",
+        "Issues": "Lapwings & Plovers",
+        "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "62",
+        "Issues": "Larks",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "63",
+        "Issues": "Mousebirds",
+        "ID_Chapter": "22",
+        "Chapter":"Mousebirds"
+    },
+    {
+        "ID_Issue": "64",
+        "Issues": "Nicator",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "65",
+        "Issues": "Nightjars",
+        "ID_Chapter": "19",
+        "Chapter":"Nightjars"
+    },
+    {
+        "ID_Issue": "66",
+        "Issues": "Noddy",
+        "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "67",
+        "Issues": "Orioles",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "68",
+        "Issues": "Ostrich",
+        "ID_Chapter": "1",
+        "Chapter":"Ostrich"
+    },
+    {
+        "ID_Issue": "69",
+        "Issues": "Barn & Grass Owls",
+         "ID_Chapter": "18",
+        "Chapter":"Owls"
+    },
+   
+    {
+        "ID_Issue": "70",
+        "Issues": "Oxpeckers",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+        
+    },
+    {
+        "ID_Issue": "71",
+        "Issues": "Oystercatchers",
+        "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "72",
+        "Issues": "Paradise Flycatchers",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "73",
+        "Issues": "Parrots & Lovebirds",
+          "ID_Chapter": "15",
+        "Chapter":"Parrots"
+    },
+    {
+        "ID_Issue": "74",
+        "Issues": "Pelicans",
+        "ID_Chapter": "4",
+        "Chapter":"Pelicans & Allies"
+        
+    },
+    {
+        "ID_Issue": "75",
+        "Issues": "Penduline Tits",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "76",
+        "Issues": "Penguins",
+         "ID_Chapter": "2",
+        "Chapter":"Penguins"
+    },
+    {
+        "ID_Issue": "77",
+        "Issues": "Petrels, Fulmars & Allies",
+        "ID_Chapter": "3",
+        "Chapter": "Tube Nosed Seabirds"
+        
+    },
+    {
+        "ID_Issue": "78",
+        "Issues": "Phalarope",
+         "ID_Chapter": "12",
+        "Chapter": "Waders & Gulls"
+    },
+    {
+        "ID_Issue": "79",
+        "Issues": "Pigeons & Doves",
+         "ID_Chapter": "14",
+        "Chapter": "Pigeons & Doves"
+    },
+    {
+        "ID_Issue": "80",
+        "Issues": "Pitta",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "81",
+        "Issues": "Prinia",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "82",
+        "Issues": "Rails & Allies",
+         "ID_Chapter": "11",
+        "Chapter":"Buttonquails & Allies"
+    },
+    {
+        "ID_Issue": "83",
+        "Issues": "Robins & Robin-Chats",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "84",
+        "Issues": "Rockjumpers",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "85",
+        "Issues": "Rollers",
+         "ID_Chapter": "24",
+        "Chapter":"Rollers & Allies"
+    },
+    {
+        "ID_Issue": "86",
+        "Issues": "Sandgrouse",
+        "ID_Chapter": "13",
+        "Chapter":"Sandgrouse"
+    },
+    {
+        "ID_Issue": "87",
+        "Issues": "Scimitarbill",
+         "ID_Chapter": "24",
+        "Chapter":"Rollers & Allies"
+    },
+    {
+        "ID_Issue": "88",
+        "Issues": "Scrub-Robins",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "89",
+        "Issues": "Secretarybird",
+        "ID_Chapter": "9",
+        "Chapter": "Birds Of Prey"
+    },
+    {
+        "ID_Issue": "90",
+        "Issues": "Sheathbill",
+        "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "91",
+        "Issues": "Shrikes",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "92",
+        "Issues": "Skimmers",
+         "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "93",
+        "Issues": "Skuas, Gulls & Terns",
+         "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "94",
+        "Issues": "Snipe & Painted Snipe",
+         "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "95",
+        "Issues": "Sparrows & Sparrow-Weavers",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "96",
+        "Issues": "Spotted Creeper",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "97",
+        "Issues": "Starlings",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "98",
+        "Issues": "Storks",
+        "ID_Chapter": "6",
+        "Chapter":"Herons & Allies"
+    },
+    {
+        "ID_Issue": "99",
+        "Issues": "Storm Petrels",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "100",
+        "Issues": "Sugarbirds",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "101",
+        "Issues": "Sunbirds",
+        "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "102",
+        "Issues": "Swallows & Martins",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "103",
+        "Issues": "Swifts",
+        "ID_Chapter": "20",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "104",
+        "Issues": "Tern",
+        "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "105",
+        "Issues": "Thick-Knees � Dikkops",
+         "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "106",
+        "Issues": "Thrushes & Rock Thrushes",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "107",
+        "Issues": "Tits",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "108",
+        "Issues": "Trogons",
+          "ID_Chapter": "21",
+        "Chapter":"Trogons"
+    },
+    {
+        "ID_Issue": "109",
+        "Issues": "Tropicbirds",
+        "ID_Chapter": "4",
+        "Chapter":"Pelicans & Allies"
+    },
+    {
+        "ID_Issue": "110",
+        "Issues": "Turacos (Louries)",
+        "ID_Chapter": "16",
+        "Chapter":"Turacos"
+        
+    },
+    {
+        "ID_Issue": "111",
+        "Issues": "Vultures",
+        "ID_Chapter": "9",
+        "Chapter":"Birds Of Prey"
+        
+    },
+    {
+        "ID_Issue": "112",
+        "Issues": "Waders",
+        "ID_Chapter": "12",
+        "Chapter":"Waders & Gulls"
+    },
+    {
+        "ID_Issue": "113",
+        "Issues": "Wagtails, Pipits & Longclaws",
+           "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "114",
+        "Issues": "Warblers & Apalises",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "115",
+        "Issues": "Waxbills",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "116",
+        "Issues": "Waxbills & Whydahs",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "117",
+        "Issues": "Weavers",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "118",
+        "Issues": "Whistling Ducks",
+        "ID_Chapter": "8",
+        "Chapter":"Duck-Like Birds"
+    },
+    {
+        "ID_Issue": "119",
+        "Issues": "White-Eyes",
+         "ID_Chapter": "26",
+        "Chapter":"Perching Birds"
+    },
+    {
+        "ID_Issue": "120",
+        "Issues": "Woodhoopoes",
+         "ID_Chapter": "24",
+        "Chapter":"Rollers & Allies"
+    },
+    {
+        "ID_Issue": "121",
+        "Issues": "Woodpeckers",
+         "ID_Chapter": "25",
+        "Chapter":"Barbets & Allies"
+    },
+    {
+        "ID_Issue": "122",
+        "Issues": "Wryneck",
+        "ID_Chapter": "25",
+        "Chapter": "Barbets & Allies"
+    },
+      {
+        "ID_Issue": "123",
+        "Issues": "Typical Owls",
+         "ID_Chapter": "18",
+        "Chapter":"Owls"
+    }
+]
