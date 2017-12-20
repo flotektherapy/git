@@ -1,5 +1,7 @@
 {
   "CorePlugins": [
+    "com.firebase.sdk@3.0.4.2",
+    "com.telerik.plugins.nativepagetransitions@0.6.5",
     "cordova-plugin-battery-status",
     "cordova-plugin-camera",
     "cordova-plugin-console",
@@ -10,6 +12,7 @@
     "cordova-plugin-dialogs",
     "cordova-plugin-file",
     "cordova-plugin-file-transfer",
+    "cordova-plugin-firebase-invites@1.0.1",
     "cordova-plugin-geolocation",
     "cordova-plugin-globalization",
     "cordova-plugin-inappbrowser",
@@ -19,6 +22,7 @@
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar",
     "cordova-plugin-vibration",
-    "cordova-plugin-whitelist"
+    "cordova-plugin-whitelist",
+    "nl.x-services.plugins.actionsheet@2.3.3"
   ]
 }

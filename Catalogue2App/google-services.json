@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "607938993489",
+    "firebase_url": "https://magnumapp-d1a36.firebaseio.com",
+    "project_id": "magnumapp-d1a36",
+    "storage_bucket": "magnumapp-d1a36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607938993489:android:2a8603b19d5725ee",
+        "android_client_info": {
+          "package_name": "com.yds.magnumapp",
+           "classpath" : "com.google.gms:google-services:3.1.0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607938993489-mk40id31m2cts33tqfdijebkqsmchpj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9IyQDMz-0taPDLLtB8BUijca9I_CXzFA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1",
+  "apply plugin": "com.google.gms.google-services"
+}
